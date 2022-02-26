@@ -68,6 +68,42 @@ ul {
   flex-direction: row;
   align-items: center;
 }
-.hero-items .apple{
-    margin-right: 1rem;
+.hero-items .apple {
+  margin-right: 1rem;
+}
+
+.section-header {
+  padding: 2rem;
+  text-align: center;
+}
+.section-header h3 {
+  font-weight: 300;
+  color: #7879f1;
+}
+.section-header h2 {
+  font-weight: bold;
+  font-size: 3rem;
+}
+.section-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.card{
+    text-align: center;
+}
+.card-cover img{
+    width: 100%;
+    object-fit: contain;
+    height: 200px;
+}
+.card-title{
+    font-weight: bold;
+    font-size: 1rem;
+}
+.card-title .title-span{
+    color: #A5A6F6;
+}
+.card p{
+    font-size: 1rem;
 }
